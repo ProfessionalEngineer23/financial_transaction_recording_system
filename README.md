@@ -35,17 +35,23 @@ git clone https://github.com/ProfessionalEngineer23/financial_transaction_record
 cd financial_transaction_recording_system
 ```
 ### 2. Create a Virtual Environment
+```bash
 python -m venv venv
-
+```
 ### 3. Activate the Virtual Environment
+```bash
 Windows (PowerShell): venv\Scripts\activate
 Mac/Linux (bash/zsh): source venv/bin/activate
-
+```
 ### 4. Install Dependencies
+```bash
 pip install -r requirements.txt
-
+```
+```bash
 ### 5. Run the Application
 python app.py
-
+```
 ### 6. Run the Application
+```bash
 Then open your browser and go to: http://127.0.0.1:5000/
+```
