@@ -39,19 +39,25 @@ cd financial_transaction_recording_system
 python -m venv venv
 ```
 ### 3. Activate the Virtual Environment
+Windows (PowerShell):
 ```bash
-Windows (PowerShell): venv\Scripts\activate
-Mac/Linux (bash/zsh): source venv/bin/activate
+venv\Scripts\activate
+```
+Mac/Linux (bash/zsh):
+```bash
+source venv/bin/activate
 ```
 ### 4. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
-```bash
 ### 5. Run the Application
+```bash
 python app.py
 ```
-### 6. Run the Application
+### 6. Open the application
+Then open your browser and go to:
 ```bash
-Then open your browser and go to: http://127.0.0.1:5000/
+http://127.0.0.1:5000/
 ```
+
